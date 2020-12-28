@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myhome/myhome",
+    "pages/diary/diary",
+    "pages/setdata/setdata",
+    "pages/writediary/writediary",
+    "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+    "pages/setdata/setdata",
+    "pages/writediary/writediary",
+    "pages/getlocation/getlocation"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#57B883",
+    "backgroundColor": "#57B883",
+    "enablePullDownRefresh": "true"
+  },
+  "tabBar": {
+    "color": "#CDCBBE",
+    "selectedColor": "#57B883",
+    "borderStyle": "black",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "iconPath": "/static/images/select_diary.png",
+        "selectedIconPath": "/static/images/selected_diary.png",
+        "pagePath": "pages/diary/diary",
+        "text": "日记"
+      },
+      {
+        "iconPath": "/static/images/select_social.png",
+        "selectedIconPath": "/static/images/selected_social.png",
+        "pagePath": "pages/index/index",
+        "text": "社交"
+      },
+      {
+        "iconPath": "/static/images/select_myhome.png",
+        "selectedIconPath": "/static/images/selected_myhome.png",
+        "pagePath": "pages/myhome/myhome",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

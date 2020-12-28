@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "个人设置",
+  "navigationBarBackgroundColor": "#57B883",
+  "navigationStyle": "custom",
+  "transparentTitle": "always",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-form": "/node-modules/uview-ui/components/u-form/u-form",
+    "u-form-item": "/node-modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/node-modules/uview-ui/components/u-input/u-input",
+    "u-action-sheet": "/node-modules/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker"
+  }
+}

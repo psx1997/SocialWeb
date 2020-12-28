@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "日记",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar"
+  }
+}

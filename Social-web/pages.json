@@ -1,0 +1,124 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/resiger/resiger",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			},
+			"meta": {
+				"isBaiduCount": true
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/myhome/myhome",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"transparentTitle": "always"
+			}
+		}, {
+			"path": "pages/diary/diary",
+			"style": {
+				"navigationBarTitleText": "日记",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/setdata/setdata",
+			"style": {
+				"navigationBarTitleText": "信息修改",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/writediary/writediary",
+			"style": {
+				"navigationBarTitleText": "我的日记"
+				// "transparentTitle":"always"
+			}
+		},
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "更换头像",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/setdata/setdata",
+			"style": {
+				"navigationBarTitleText": "个人设置",
+				"navigationBarBackgroundColor": "#57B883",
+				"navigationStyle": "custom",
+				"transparentTitle": "always"
+			}
+		}, {
+			"path": "pages/writediary/writediary",
+			"style": {
+				"navigationBarTitleText": "我的日记"
+			}
+		}
+
+		, {
+			"path": "pages/index_detail/index_detail",
+			"style": {
+				"navigationBarTitleText": "提问详情",
+				"navigationStyle": "custom",
+				"transparentTitle": "always"
+			}
+		}, {
+			"path": "pages/reply/reply",
+			"style": {
+				"navigationBarTitleText": "评论"
+				// "navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/u-avatar-cropper/u-avatar-cropper",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#57B883",
+		"backgroundColor": "#57B883",
+		"enablePullDownRefresh": "true"
+	},
+	"tabBar": {
+		"color": "#CDCBBE",
+		"selectedColor": "#57B883",
+		"borderStyle": "black",
+		"backgroundColor": "white",
+		"list": [{
+			"iconPath": "/static/images/select_diary.png",
+			"selectedIconPath": "/static/images/selected_diary.png",
+			"pagePath": "pages/diary/diary",
+			"text": "日记"
+		}, {
+			"iconPath": "/static/images/select_social.png",
+			"selectedIconPath": "/static/images/selected_social.png",
+			"pagePath": "pages/index/index",
+			"text": "社交"
+		}, {
+			"iconPath": "/static/images/select_myhome.png",
+			"selectedIconPath": "/static/images/selected_myhome.png",
+			"pagePath": "pages/myhome/myhome",
+			"text": "我的"
+		}]
+	}
+}

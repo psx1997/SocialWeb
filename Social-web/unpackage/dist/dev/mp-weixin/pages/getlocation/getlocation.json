@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择地理位置",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar"
+  }
+}

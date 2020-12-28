@@ -1,0 +1,11 @@
+
+.setdata_con {
+	width: 100%;
+	background-color: #f4f4f5;
+}
+.setdata_con .form_con{
+	padding: 30rpx;
+	background-color: #fff;
+	margin-top: 80rpx;
+}
+
